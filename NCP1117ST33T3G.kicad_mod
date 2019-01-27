@@ -1,0 +1,18 @@
+(module NCP1117ST33T3G (layer F.Cu) (tedit 559038F4)
+  (fp_text reference NCP1117ST33T3G (at 0.65 -2.65) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value VAL** (at 4.9 -5.6) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 0 -1.4) (end 3.35 -1.4) (layer F.SilkS) (width 0.15))
+  (fp_line (start 3.35 -1.4) (end 3.35 -1.5) (layer F.SilkS) (width 0.15))
+  (fp_line (start 0 -1.4) (end -3.35 -1.4) (layer F.SilkS) (width 0.15))
+  (fp_line (start -3.35 -1.4) (end -3.35 -4.6) (layer F.SilkS) (width 0.15))
+  (fp_line (start -3.35 -4.6) (end 3.35 -4.6) (layer F.SilkS) (width 0.15))
+  (fp_line (start 3.35 -4.6) (end 3.35 -1.45) (layer F.SilkS) (width 0.15))
+  (pad 1 smd rect (at -2.3 0 90) (size 2 1.5) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0 0 90) (size 2 1.5) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at 2.3 0 90) (size 2 1.5) (layers F.Cu F.Paste F.Mask))
+  (pad 4 smd rect (at 0 -6.3) (size 3.8 2) (layers F.Cu F.Paste F.Mask))
+)
